@@ -16,7 +16,7 @@
  *   <https://github.com/rgs-hw/exams/blob/master/LICENSE> or <http://www.gnu.org/licenses/>.
  **/
 /* https://cssminifier.com/ */
-@import url('https://fonts.googleapis.com/css?family=Oxygen');
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono');
 
 body {
     background: -webkit-linear-gradient(right, #ececec, #fff, #ececec);
@@ -72,16 +72,15 @@ h2 {
     font-size: 3.5vH;
     font-weight: 200;
     font-style: normal;
-    background-color: #F6EEE8;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
 
 .date > b {
     font-size: 5vH;
+    font-family: 'Oxygen Mono', monospace;
     font-weight: 200;
     font-style: normal;
-    background-color: #F6EEE8;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
@@ -97,7 +96,7 @@ section.border-clock {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    box-shadow: 15px 15px 35px -10px #ececec;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.5);
 }
 
 section.clock {
@@ -124,6 +123,7 @@ section.clock div.seconds {
     transform: translate(-50%, -50%);
     -webkit-transform-origin: 50% 0;
     transform-origin: 50% 0;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
 }
 
 section.clock div.seconds::before,
@@ -137,6 +137,7 @@ section.clock div.hours::before {
     transform-origin: 50% 0;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
 }
 
 section.clock div.seconds::before {
@@ -179,6 +180,7 @@ section.clock span {
     position: absolute;
     top: 50%;
     left: 50%;
+    z-index: -1;
 }
 
 section.clock span::after {
@@ -207,7 +209,7 @@ section.clock span.fives::before {
 }
 
 section.clock ul {
-    height: 38%;
+    height: 42%;
     width: 0;
     position: absolute;
     bottom: 50%;
