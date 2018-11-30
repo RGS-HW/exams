@@ -70,10 +70,10 @@ h2 {
 }
 
 section.border-clock {
-    background-color: #252D63;
+    background-color: #4165B3;
     width: 95vH;
     height: 95vH;
-    border: 10px solid #252D63;
+    border: 10px solid #4165B3;
     border-radius: 100%;
     position: absolute;
     top: 50%;
@@ -109,8 +109,6 @@ section.clock div.seconds {
     transform-origin: 50% 0;
 }
 
-/*div.minutes {transition: transform 1s linear}*/
-
 section.clock div.seconds::before,
 section.clock div.minutes::before,
 section.clock div.hours::before {
@@ -133,14 +131,14 @@ section.clock div.seconds::before {
 section.clock div.minutes::before {
     width: 6px;
     height: 38vH;
-    background-color: #252D63;
+    background-color: #4165B3;
     border-radius: 3px;
 }
 
 section.clock div.hours::before {
     width: 5px;
     height: 28vH;
-    background-color: #252D63;
+    background-color: #4165B3;
     border-radius: 3px;
 }
 
@@ -214,114 +212,4 @@ section.clock ul li i {
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-}
-
-section.clock ul li:nth-child(2) {
-    -webkit-transform: rotate(30deg);
-    transform: rotate(30deg);
-}
-
-section.clock ul li:nth-child(2) i {
-    -webkit-transform: translateX(-50%) rotate(-30deg);
-    transform: translateX(-50%) rotate(-30deg)
-}
-
-section.clock ul li:nth-child(3) {
-    -webkit-transform: rotate(60deg);
-    transform: rotate(60deg);
-}
-
-section.clock ul li:nth-child(3) i {
-    -webkit-transform: translateX(-50%) rotate(-60deg);
-    transform: translateX(-50%) rotate(-60deg)
-}
-
-section.clock ul li:nth-child(4) {
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
-section.clock ul li:nth-child(4) i {
-    -webkit-transform: translateX(-50%) rotate(-90deg);
-    transform: translateX(-50%) rotate(-90deg)
-}
-
-section.clock ul li:nth-child(5) {
-    -webkit-transform: rotate(120deg);
-    transform: rotate(120deg);
-}
-
-section.clock ul li:nth-child(5) i {
-    -webkit-transform: translateX(-50%) rotate(-120deg);
-    transform: translateX(-50%) rotate(-120deg)
-}
-
-section.clock ul li:nth-child(6) {
-    -webkit-transform: rotate(150deg);
-    transform: rotate(150deg);
-}
-
-section.clock ul li:nth-child(6) i {
-    -webkit-transform: translateX(-50%) rotate(-150deg);
-    transform: translateX(-50%) rotate(-150deg)
-}
-
-section.clock ul li:nth-child(7) {
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
-}
-
-section.clock ul li:nth-child(7) i {
-    -webkit-transform: translateX(-50%) rotate(-180deg);
-    transform: translateX(-50%) rotate(-180deg)
-}
-
-section.clock ul li:nth-child(8) {
-    -webkit-transform: rotate(210deg);
-    transform: rotate(210deg);
-}
-
-section.clock ul li:nth-child(8) i {
-    -webkit-transform: translateX(-50%) rotate(-210deg);
-    transform: translateX(-50%) rotate(-210deg)
-}
-
-section.clock ul li:nth-child(9) {
-    -webkit-transform: rotate(240deg);
-    transform: rotate(240deg);
-}
-
-section.clock ul li:nth-child(9) i {
-    -webkit-transform: translateX(-50%) rotate(-240deg);
-    transform: translateX(-50%) rotate(-240deg)
-}
-
-section.clock ul li:nth-child(10) {
-    -webkit-transform: rotate(270deg);
-    transform: rotate(270deg);
-}
-
-section.clock ul li:nth-child(10) i {
-    -webkit-transform: translateX(-50%) rotate(-270deg);
-    transform: translateX(-50%) rotate(-270deg)
-}
-
-section.clock ul li:nth-child(11) {
-    -webkit-transform: rotate(300deg);
-    transform: rotate(300deg);
-}
-
-section.clock ul li:nth-child(11) i {
-    -webkit-transform: translateX(-50%) rotate(-300deg);
-    transform: translateX(-50%) rotate(-300deg)
-}
-
-section.clock ul li:last-child {
-    -webkit-transform: rotate(330deg);
-    transform: rotate(330deg);
-}
-
-section.clock ul li:last-child i {
-    -webkit-transform: translateX(-50%) rotate(-330deg);
-    transform: translateX(-50%) rotate(-330deg)
 }
