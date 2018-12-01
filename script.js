@@ -17,12 +17,6 @@
  **/
 /* https://jscompress.com/ */
 
-// Check Chrome
-var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-if (!isChrome) {
-    alert('Please be aware this site only officially supports Chrome on Desktop.\nFor best performance and reliability please use this site via Chrome.');
-}
-
 // Generate clock face
 var clock = document.querySelector(".clock");
 
@@ -37,16 +31,16 @@ for (var i = 0; i < 30; i++) {
         span.className = "fives";
     }
 
-    span.style.transform = "translate(-50%,-50%) rotate(" + (i*6).toString() + "deg)";
+    span.style.transform = "translate(-50%,-50%) rotate(" + (i * 6).toString() + "deg)";
     clock.appendChild(span);
 }
 
 for (var i = 2; i < 13; i++) {
-    var li = document.querySelector("section.clock ul li:nth-child("+i.toString()+")");
-    var lii = document.querySelector("section.clock ul li:nth-child("+i.toString()+") i");
+    var li = document.querySelector("section.clock ul li:nth-child(" + i.toString() + ")");
+    var lii = document.querySelector("section.clock ul li:nth-child(" + i.toString() + ") i");
 
-    li.style.transform = "rotate("+(30*(i-1)).toString()+"deg)";
-    lii.style.transform = "translateX(-50%) rotate(-"+(30*(i-1)).toString()+"deg)";
+    li.style.transform = "rotate(" + (30 * (i - 1)).toString() + "deg)";
+    lii.style.transform = "translateX(-50%) rotate(-" + (30 * (i - 1)).toString() + "deg)";
 }
 
 // Set the clock position
