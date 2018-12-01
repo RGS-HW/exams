@@ -93,5 +93,5 @@ for (var i = 2; i < 13; i++) {
     output.innerHTML = "<i>&nbsp;" + printDate + "&nbsp;</i><br/><b>&nbsp;" + printTime + "&nbsp;</b>";
 
     // Recurse
-    setTimeout(setClock, 1000);
+    setTimeout(setClock, 100); //0.1s
 })();
