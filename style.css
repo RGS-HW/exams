@@ -18,6 +18,10 @@
 /* https://cssminifier.com/ */
 @import url('https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono');
 
+html {
+    background: #fff;
+}
+
 body {
     background: -webkit-linear-gradient(right, #ececec, #fff, #ececec);
     background: linear-gradient(-90deg, #ececec, #fff, #ececec);
@@ -96,7 +100,7 @@ section.border-clock {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    box-shadow: 0 0 15px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.5);
 }
 
 section.clock {
@@ -123,7 +127,7 @@ section.clock div.seconds {
     transform: translate(-50%, -50%);
     -webkit-transform-origin: 50% 0;
     transform-origin: 50% 0;
-    box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
 }
 
 section.clock div.seconds::before,
@@ -137,7 +141,7 @@ section.clock div.hours::before {
     transform-origin: 50% 0;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
 }
 
 section.clock div.seconds::before {
