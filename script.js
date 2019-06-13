@@ -35,12 +35,12 @@ for (var i = 0; i < 30; i++) {
     clock.appendChild(span);
 }
 
-for (var i = 2; i < 13; i++) {
+for (var i = 1; i < 13; i++) {
     var li = document.querySelector("section.clock ul li:nth-child(" + i.toString() + ")");
     var lii = document.querySelector("section.clock ul li:nth-child(" + i.toString() + ") i");
 
     li.style.transform = "rotate(" + (30 * (i - 1)).toString() + "deg)";
-    lii.style.transform = "translateX(-50%) rotate(-" + (30 * (i - 1)).toString() + "deg)";
+    lii.style.transform = "translateX(-50%) rotate(-" + (30 * (i - 1)).toString() + "deg) translateY(50%)";
 }
 
 // Set the clock position
