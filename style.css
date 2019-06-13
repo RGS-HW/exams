@@ -23,8 +23,9 @@ html {
 }
 
 body {
-    background: -webkit-linear-gradient(right, #ececec, #fff, #ececec);
-    background: linear-gradient(-90deg, #ececec, #fff, #ececec);
+    /*background: -webkit-linear-gradient(right, #ececec, #fff, #ececec);
+    background: linear-gradient(-90deg, #ececec, #fff, #ececec);*/
+    background: #fff;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -90,7 +91,7 @@ h2 {
 }
 
 section.border-clock {
-    background-color: #4165B3;
+    background: #4165B3;
     width: 95vH;
     height: 95vH;
     border: 10px solid #4165B3;
@@ -106,7 +107,8 @@ section.border-clock {
 section.clock {
     width: calc(95vH - 28px);
     height: calc(95vH - 28px);
-    background-color: #FDFAF7;
+    background: #fff;
+    color: #000;
     border-radius: 100%;
     position: absolute;
     left: 50%;
